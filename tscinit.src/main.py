@@ -125,8 +125,6 @@ def main():
     print("  2. Run `npm install` to install local dev dependencies (TypeScript).")
     print("  3. Run `npm run build` to compile TypeScript => JavaScript in build/.")
     print("  4. Run `npm run start` to execute the compiled JS from build/.")
-    print("\nNow your ESM imports in the compiled code will have '.js' appended automatically!")
-
 if __name__ == "__main__":
     main()
 
